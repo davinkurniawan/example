@@ -13,5 +13,7 @@ RUN go install github.com/golang/example/outyet
 # Run the outyet command by default when the container starts.
 ENTRYPOINT /go/bin/outyet
 
+
+
 # Document that the service listens on port 8080.
 EXPOSE 8080
